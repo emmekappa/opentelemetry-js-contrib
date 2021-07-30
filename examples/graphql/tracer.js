@@ -21,7 +21,7 @@ provider.register();
 registerInstrumentations({
   instrumentations: [
     new GraphQLInstrumentation({
-      // allowAttributes: true,
+      // allowValues: true,
       // depth: 2,
       // mergeItems: true,
     }),
